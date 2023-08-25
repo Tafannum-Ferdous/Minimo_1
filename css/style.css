@@ -1,0 +1,264 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 h2 h3 h4 h5 h6 ul li {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    width: 20%;
+}
+
+nav {
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+}
+
+.banner {
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 30px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.photodiary {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+.photodiary h5 {
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.photodiary h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+}
+
+.photodiary p {
+    margin-bottom: 20px;
+    color: rgb(98, 98, 98);
+    font-family: "Playfair Display", serif;
+    line-height: 24px;
+}
+
+.photodiary h6 {
+    color: rgb(180, 173, 158);
+    font-size: 14px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.feature_section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 60px 0px;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 48%;
+    margin-bottom: 100px;
+}
+
+.item img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.item h5 {
+    color: rgb(180, 173, 158);
+    font-size: 14px;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.item h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+}
+
+.item p {
+    margin-bottom: 30px;
+    color: rgb(98, 98, 98);
+    font-family: "Playfair Display", serif;
+    line-height: 24px;
+}
+
+.signup_section {
+    background: rgb(240, 240, 240);
+    padding: 100px 0px;
+}
+
+.form {
+    width: 30%;
+    margin: auto;
+    position: relative;
+}
+
+.form h1 {
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+    font-weight: 500;
+}
+
+.form input {
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    width: 79%;
+}
+
+.form input::placeholder {
+    color: rgb(98, 98, 98);
+    font-family: "Playfair Display", serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.icon {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 30%;
+}
+
+.icon img {
+}
+
+.second_feature {
+}
+
+.second_feature_item {
+    margin-bottom: 0px;
+}
+
+.loadmore {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.loadmore button {
+    background: transparent;
+    padding: 15px 25px;
+    color: rgb(98, 98, 98);
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+footer{
+
+background: #f0f0f0;
+
+padding: 50px 0;
+
+
+}
+.footer_content{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms{
+}
+.terms ul{
+    
+list-style: none;
+    
+display: flex;
+}
+.terms ul li{
+    
+margin-right: 25px;
+}
+.terms ul li a{
+    
+text-decoration: none;
+    
+font-family: "Playfair Display", serif;
+    
+color: #000;
+    
+text-transform: capitalize;
+}
+.social_icon{
+
+}
+.social_icon ul{
+    list-style: none;
+    
+display: flex;
+    
+}
+.social_icon ul li{
+    margin-left: 25px;
+    
+}
+.social_icon ul li a{ 
+    text-decoration: none;
+    
+font-family: "Playfair Display", serif;
+    
+color: #000;
+    
+text-transform: capitalize;
+}
